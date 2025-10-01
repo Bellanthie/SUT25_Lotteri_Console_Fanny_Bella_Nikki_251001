@@ -14,8 +14,15 @@ namespace SUT25_Lotteri_Console_Fanny_Bella_Nikki_251001
         static void Main(string[] args)
         {
 
-          
+
         }
 
+        static void GenerateWinnerNumbers()
+        {
+            for (int i = 0; i < 2; i++)
+            {
+                winnerTickets[i] = new Random().Next(1-51);
+            }
+        }
     }
 }
