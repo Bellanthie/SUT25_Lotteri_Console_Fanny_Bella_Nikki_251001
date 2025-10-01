@@ -21,6 +21,8 @@ namespace SUT25_Lotteri_Console_Fanny_Bella_Nikki_251001
         {
             foreach (int ticket in userTickets)
             {
+
+
                 foreach (int winner in winnerTickets)
                 {
                     Console.WriteLine($"Ditt vinnande nummer är {winner}");
